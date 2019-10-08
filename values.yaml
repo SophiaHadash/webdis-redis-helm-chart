@@ -1,7 +1,6 @@
 # Default values for webdis-redis.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-# Created by Yordanis Arencibia Lopez.
 
 replicaCount: 1
 
