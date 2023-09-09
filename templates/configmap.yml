@@ -26,6 +26,6 @@ data:
         "hiredis": {
             "keep_alive_sec": 15
         },
-        "verbosity": 3,
-        "logfile": "/var/log/webdis.log"
+        "verbosity": {{ .Values.logging.verbosity }},
+        "logfile": "{{ .Values.logging.path }}"
     }
