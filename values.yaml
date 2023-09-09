@@ -7,7 +7,7 @@
 replicaCount: 1
 
 image:
-  repository: anapsix/webdis
+  repository: nicolas/webdis
   tag: latest
   pullPolicy: IfNotPresent
 
