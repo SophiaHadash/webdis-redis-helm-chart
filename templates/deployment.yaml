@@ -37,6 +37,7 @@ spec:
           volumeMounts:
           - name: webdis-configmap
             mountPath: /etc/webdis.prod.json
+            readOnly: true
             subPath: webdis.prod.json
       volumes:
         - name: webdis-configmap
