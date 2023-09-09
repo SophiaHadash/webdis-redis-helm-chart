@@ -20,6 +20,8 @@ spec:
         - name: webdis
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command: ["/usr/local/bin/webdis"]
+          args: ["/etc/webdis.prod.json"]
           ports:
             - name: http
               containerPort: 7379
