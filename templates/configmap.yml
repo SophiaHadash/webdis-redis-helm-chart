@@ -11,7 +11,7 @@ data:
         "redis_auth": null,
         "http_host": "0.0.0.0",
         "http_port": 7379,
-        "threads": 4,
+        "threads": 1,
         "daemonize": true,
         "database": 0,
         "acl": [
